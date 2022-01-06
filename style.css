@@ -1,3 +1,28 @@
 .heading-text {
     color:blue;
 }
+.red-text{
+    color:red;
+}
+h2{
+  font-family: Lobster, monospace;
+}
+p {
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+.thick-green-border{
+    border-width: 10px;
+    border-color:green;
+    border-style:solid;
+     border-radius:50%; /*perfect circle */
+}
+.smaller-image{
+    width:100px;
+}
+.silver-background{
+    background-color:silver;
+}
+#cat-photo-form{
+    background-color:green;
+}
