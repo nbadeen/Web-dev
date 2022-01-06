@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>First Page</title>
 </head>
 <body>
     <!-- Some html 5 tags main, header, footer, nav, video, article, section-->
     <header>
-        <h2>Cat Photo App</h2>
+        <h2 class="heading-text">Cat Photo App</h2>
     </header>
     <main>
         <p>Click here to view more<a href="https://www.freecatphotoapp.com" target="_blank">Cat Photos</a></p>
@@ -30,7 +31,25 @@
         </div>
         <div>
             <form action="">
-                <input type="text" placeholder="Cat photo URL">
+                <input type="text" placeholder="Cat photo URL" required>
+                <br>
+                <label>
+                    <input type="radio" name="indoor-outdoor" value="indoor" checked>Indoor
+                </label>
+                <label>
+                    <input type="radio" name="indoor-outdoor" value="outdoor">Outdoor
+                </label>
+                <br>
+                <label for="loving">
+                    <input id="loving" type="checkbox" name="personality" value="loving" checked>Loving
+                </label>
+                <label for="lazy">
+                    <input id="lazy" type="checkbox" name="personality" value="lazy">Lazy
+                </label>
+                <label for="energetic">
+                    <input id="energetic" type="checkbox" name="personality" value="energetic">Energetic
+                </label>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </main>
